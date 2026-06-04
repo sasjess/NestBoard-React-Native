@@ -14,6 +14,7 @@ import { Square } from './src/codes/Square';
 import { FlexBoxExamples } from './src/codes/FlexBoxExamples';
 import { Alignments } from './src/codes/Alignments';
 import {D2i } from './src/practice/day2i';
+import { D2ii } from './src/practice/day2ii';
 
 function App() {
 
@@ -27,7 +28,8 @@ function App() {
     <SafeAreaProvider>
       {/* <FlexBoxExamples /> */}
       {/* <Alignments /> */}
-      <D2i />
+      {/* <D2i /> */}
+      <D2ii  />
     </SafeAreaProvider>
   );
 }
